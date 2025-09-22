@@ -34,4 +34,5 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
+  base: '/resume-analyser/',
 });

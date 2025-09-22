@@ -26,7 +26,7 @@ export default function Home() {
       const formData = new FormData();
       formData.append("file", file);
 
-      const response = await fetch("http://localhost:8000/upload-resume", {
+      const response = await fetch("https://resume-analyser-backend-ob3l.onrender.com/upload-resume", {
         method: "POST",
         body: formData,
       });
