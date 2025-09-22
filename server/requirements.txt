@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+pdfplumber
+PyPDF2
+docx2txt
+python-docx
+pytesseract
+pillow
+google-generativeai
